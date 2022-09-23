@@ -1,0 +1,16 @@
+# test env
+dedao_company_id=5
+database_url="postgresql://rock2018:461797803a2eb40a@pgm-2ze2mn22i2e3639214850.pg.rds.aliyuncs.com:3433/rock2018_3"
+
+# # prod env
+# dedao_company_id=9
+# database_url="postgresql://ro:odoowhistler@pgr-2zet269ojdj2p40n.pg.rds.aliyuncs.com:3306/rock2018"
+
+mongo_url="mongodb://datamaster:OqC7eGWzgXFuSj8P@192.168.0.87:7997,192.168.0.88:7997,192.168.0.89:7997/datamaster?readPreference=secondaryPreferred&replicaSet=7997&authSource=admin"
+
+# 每次从数据库select多少数据
+step_cnt=100
+# 最多处理多少数据, 0 代表不限制
+process_max_cnt=500
+# 处理多少数据后打印一条进度日志
+progress_step_cnt=1000
